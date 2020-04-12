@@ -1,0 +1,47 @@
+input#search {
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    align-content: center;
+    margin: 30px auto;
+    display: flex;
+    width: 60%;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 1em;
+    color: #9E9E9E;
+    padding: 3%;
+}
+
+input#search::placeholder {
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #9E9E9E;
+}
+
+.all-images {
+    display:block;
+    text-align: center;
+    max-width: 1240px;
+}
+
+img.thumbnail {
+    padding: 0 30px 60px;
+}
+
+.lb-details {
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.lightbox {
+    top: 30%;
+    }
+
+@media only screen and (min-width: 768px) {
+    input#search {
+        width: 35%;
+        padding: 1%;
+    }
+}
